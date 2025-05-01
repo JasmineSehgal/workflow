@@ -1,0 +1,12 @@
+name: welcome New contributors
+
+on:
+   pull_request_target:
+      types: [opened]
+
+jobs:
+     greet:
+       runs-on: ubuntu-latest
+       steps:
+       - name: Greet the user
+         run: echo " ~k welcome to the repository! Thankyou for your conntribution
